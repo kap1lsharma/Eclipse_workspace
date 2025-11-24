@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-06T22:03:51 NZDT" name="Default suite" finished-at="2024-02-06T22:04:11 NZDT" duration-ms="20381">
+    <groups>
+    </groups>
+    <test started-at="2024-02-06T22:03:51 NZDT" name="Default test" finished-at="2024-02-06T22:04:11 NZDT" duration-ms="20381">
+      <class name="testcase.OnAccount">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testcase.OnAccount@273444fe]" started-at="2024-02-06T22:03:51 NZDT" name="Setup" finished-at="2024-02-06T22:03:59 NZDT" duration-ms="7712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="ForOnAccount()[pri:0, instance:testcase.OnAccount@273444fe]" started-at="2024-02-06T22:03:59 NZDT" name="ForOnAccount" finished-at="2024-02-06T22:04:11 NZDT" duration-ms="12600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForOnAccount -->
+      </class> <!-- testcase.OnAccount -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
