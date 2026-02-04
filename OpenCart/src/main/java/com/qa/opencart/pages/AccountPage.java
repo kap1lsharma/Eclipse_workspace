@@ -39,6 +39,12 @@ public class AccountPage {
 
 	}
 
+	public void clickOnLogout() {
+
+		eleutil.waitForElementVisible(logoutButton, AppConstants.MEDIUM_TIME_OUT).click();
+
+	}
+
 	public List<String> getAccountPageHeader() {
 
 		List<WebElement> Headerlist = eleutil.waitForElementsVisible(accountHeaders, AppConstants.SHORT_TIME_OUT);

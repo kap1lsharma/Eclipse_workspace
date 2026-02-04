@@ -39,4 +39,11 @@ public class LoginPageTest extends BaseTest {
 
 	}
 
+	@Test(priority = 4)
+	public void logoutFromAccountPageTest() {
+
+		accPage.clickOnLogout();
+
+	}
+
 }
